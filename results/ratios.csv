@@ -1,0 +1,51 @@
+algorithm,graph,n,m,ratio,formula
+Kruskal,sparse,1000,4000,2.2902,dsu_ops / E
+Prim,sparse,1000,4000,4.7937,comparisons / (E log2 V)
+Kosaraju,sparse,1000,4000,1.6,edge_scans / (V + E)
+Kahn,sparse,1000,4000,0.8,edge_scans / (V + E)
+DagShortestPath,sparse,1000,4000,0.8,edge_scans / (V + E)
+Kruskal,dense,1000,20000,0.58,dsu_ops / E
+Prim,dense,1000,20000,5.6267,comparisons / (E log2 V)
+Kosaraju,dense,1000,20000,1.9048,edge_scans / (V + E)
+Kahn,dense,1000,20000,0.9524,edge_scans / (V + E)
+DagShortestPath,dense,1000,20000,0.9524,edge_scans / (V + E)
+Kruskal,sparse,3162,12648,2.5189,dsu_ops / E
+Prim,sparse,3162,12648,4.6945,comparisons / (E log2 V)
+Kosaraju,sparse,3162,12648,1.6,edge_scans / (V + E)
+Kahn,sparse,3162,12648,0.8,edge_scans / (V + E)
+DagShortestPath,sparse,3162,12648,0.8,edge_scans / (V + E)
+Kruskal,dense,3162,63240,0.6062,dsu_ops / E
+Prim,dense,3162,63240,5.4074,comparisons / (E log2 V)
+Kosaraju,dense,3162,63240,1.9048,edge_scans / (V + E)
+Kahn,dense,3162,63240,0.9524,edge_scans / (V + E)
+DagShortestPath,dense,3162,63240,0.9524,edge_scans / (V + E)
+Kruskal,sparse,10000,40000,2.6818,dsu_ops / E
+Prim,sparse,10000,40000,4.6653,comparisons / (E log2 V)
+Kosaraju,sparse,10000,40000,1.6,edge_scans / (V + E)
+Kahn,sparse,10000,40000,0.8,edge_scans / (V + E)
+DagShortestPath,sparse,10000,40000,0.8,edge_scans / (V + E)
+Kruskal,dense,10000,200000,0.5647,dsu_ops / E
+Prim,dense,10000,200000,5.2429,comparisons / (E log2 V)
+Kosaraju,dense,10000,200000,1.9048,edge_scans / (V + E)
+Kahn,dense,10000,200000,0.9524,edge_scans / (V + E)
+DagShortestPath,dense,10000,200000,0.9524,edge_scans / (V + E)
+Kruskal,sparse,31623,126492,2.7317,dsu_ops / E
+Prim,sparse,31623,126492,4.623,comparisons / (E log2 V)
+Kosaraju,sparse,31623,126492,1.6,edge_scans / (V + E)
+Kahn,sparse,31623,126492,0.8,edge_scans / (V + E)
+DagShortestPath,sparse,31623,126492,0.8,edge_scans / (V + E)
+Kruskal,dense,31623,632460,0.754,dsu_ops / E
+Prim,dense,31623,632460,5.1047,comparisons / (E log2 V)
+Kosaraju,dense,31623,632460,1.9048,edge_scans / (V + E)
+Kahn,dense,31623,632460,0.9524,edge_scans / (V + E)
+DagShortestPath,dense,31623,632460,0.9524,edge_scans / (V + E)
+Kruskal,sparse,100000,400000,2.7483,dsu_ops / E
+Prim,sparse,100000,400000,4.5473,comparisons / (E log2 V)
+Kosaraju,sparse,100000,400000,1.6,edge_scans / (V + E)
+Kahn,sparse,100000,400000,0.8,edge_scans / (V + E)
+DagShortestPath,sparse,100000,400000,0.8,edge_scans / (V + E)
+Kruskal,dense,100000,2000000,0.8936,dsu_ops / E
+Prim,dense,100000,2000000,5.0022,comparisons / (E log2 V)
+Kosaraju,dense,100000,2000000,1.9048,edge_scans / (V + E)
+Kahn,dense,100000,2000000,0.9524,edge_scans / (V + E)
+DagShortestPath,dense,100000,2000000,0.9524,edge_scans / (V + E)

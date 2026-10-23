@@ -1,0 +1,11 @@
+algorithm,graph,slope
+DagShortestPath,dense,1.0
+DagShortestPath,sparse,1.0
+Kahn,dense,1.0
+Kahn,sparse,1.0
+Kosaraju,dense,1.0
+Kosaraju,sparse,1.0
+Kruskal,dense,1.119
+Kruskal,sparse,1.055
+Prim,dense,1.0
+Prim,sparse,1.0
